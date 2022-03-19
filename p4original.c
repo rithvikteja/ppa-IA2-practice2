@@ -42,7 +42,7 @@ int sum_composite_numbers(int n, int a[n])
 
 void output(int sum)
 {
-  printf("%d\n", sum);
+  printf("sum is %d\n", sum);
 }
 
 int main()

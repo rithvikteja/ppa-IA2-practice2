@@ -21,7 +21,7 @@ void output(int n,int iscomposite)
     printf("%d is a composite number\n",n);
   else
     printf("%d is not a composite number\n",n);
-}
+  }
 int main()
 {
   int n,iscomposite;
