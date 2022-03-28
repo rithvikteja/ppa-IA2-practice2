@@ -50,7 +50,7 @@ int main()
   int length = input_array_size();
   int data[length];
   input_array(length, data);
-  int res = sum_composite_numbers(length, data);
-  output(res);
+  int result = sum_composite_numbers(length, data);
+  output(result);
   return 0;
-}
+  }
