@@ -15,11 +15,11 @@ int gcd(int a,int b)
       b=a%b;
       a=t;
     }
-  return a;
+  return t;
 }
 void output(int a,int b,int gcd)
 {
-  printf("the gcd of %d & %d=%d\n",a,b,gcd);
+  printf("the gcd of %d & %d is %d\n",a,b,gcd);
 }
 int main()
 {
@@ -28,4 +28,4 @@ int main()
   int res=gcd(num1,num2);
   output(num1,num2,res);
   return 0;
-  }
+}
